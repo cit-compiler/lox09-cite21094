@@ -1,44 +1,53 @@
 {
- "type": "Program",
- "body": [
-  {
-   "type": "ExpressionStatement",
-   "expression": {
-    "type": "BinaryExpression",
-    "operator": "/",
-    "left": {
-     "type": "BinaryExpression",
-     "operator": "*",
-     "left": {
-      "type": "Literal",
-      "value": 32
-     },
-     "right": {
-      "type": "Literal",
-      "value": 4
-     }
-    },
-    "right": {
-     "type": "BinaryExpression",
-     "operator": "/",
-     "left": {
-      "type": "BinaryExpression",
-      "operator": "*",
-      "left": {
-       "type": "Literal",
-       "value": 25
-      },
-      "right": {
-       "type": "Literal",
-       "value": 4
+    "タイプ": "プログラム",
+    "体"： [
+     {
+      "type": "式ステートメント",
+      "表現"： {
+       "type": "バイナリ式",
+       "演算子": "+",
+       "左"： {
+        "type": "バイナリ式",
+        「演算子」:「*」、
+        "左"： {
+         "type": "リテラル",
+         「値」: 5
+        },
+        "右"： {
+         "type": "リテラル",
+         「値」: 9
+        }
+       },
+       "右"： {
+        "type": "バイナリ式",
+        「演算子」:「/」、
+        "左"： {
+         "type": "リテラル",
+         「値」: 8
+        },
+        "右"： {
+         "type": "CallExpression",
+         「呼び出し先」: {
+          "type": "リテラル",
+          「値」: 9
+         },
+         「引数」: [
+          {
+           "type": "バイナリ式",
+           「演算子」: 「-」、
+           "左"： {
+            "type": "リテラル",
+            「値」: 5
+           },
+           "右"： {
+            "type": "リテラル",
+            「値」: 2
+           }
+          }
+         ]
+        }
+       }
       }
-     },
-     "right": {
-      "type": "Literal",
-      "value": 20
      }
-    }
+    ]
    }
-  }
- ]
-}
